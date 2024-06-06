@@ -120,5 +120,3 @@ if is_customer_early_adopter:
 
 
 print("Продължаваме работа си .....")
-
-
