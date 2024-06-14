@@ -115,7 +115,7 @@
             </td>
             <td>
                 <a href="./@meets/meet-06/README.md">
-                    Списъци
+                    Цикли - част 1
                 </a>            
             </td>
             <td>
@@ -129,7 +129,7 @@
             </td>
             <td>
                 <a href="./@meets/meet-07/README.md">
-                    Функции - част 1
+                    Цикли - част 2
                 </a>            
             </td>
             <td>
@@ -143,7 +143,7 @@
             </td>
             <td>
                 <a href="./@meets/meet-08/README.md">
-                    Функции - част 2
+                    Цикли - част 3
                 </a>            
             </td>
             <td>
