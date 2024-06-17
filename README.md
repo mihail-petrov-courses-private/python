@@ -124,7 +124,7 @@
             - Цикъла WHILE;<br> 
             </td>
         </tr>
-        <!-- <tr>
+        <tr>
             <td>
                 <code>среща 7</code>
                 <br>
@@ -138,7 +138,7 @@
             <td>
             </td>
         </tr>          
-        <tr>
+        <!-- <tr>
             <td>
                 <code>среща 8</code>
                 <br>
