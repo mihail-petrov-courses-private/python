@@ -169,7 +169,6 @@
             <td>
             </td>
         </tr> 
-        <!-- 
         <tr>
             <td>
                 <code>среща 10</code>
@@ -178,11 +177,11 @@
             </td>
             <td>
                 <a href="./@meets/meet-10/README.md">
-                    Цикли - част 5
+                    Функции
                 </a>            
             </td>
             <td>
             </td>
-        </tr>                 -->
+        </tr>                 
     <tbody>
 </table>
