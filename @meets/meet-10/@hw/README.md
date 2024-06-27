@@ -20,6 +20,7 @@
 
 <details>
 <summary>Примерно извикване на функцията</summary>
+    
 ```python
     turn_right()
 ```
@@ -30,6 +31,7 @@
 
 <details>
 <summary>Примерно извикване на функцията</summary>
+    
 ```python
     shift_gear(5)
 ```
@@ -40,6 +42,7 @@
 
 <details>
 <summary>Примерно извикване на функцията</summary>
+    
 ```python
     can_start_engine(5) 
     # False
@@ -54,6 +57,7 @@
 
 <details>
 <summary>Примерно извикване на функцията</summary>
+    
 ```python
     is_electric_system_ok(5, 10) 
     # False
@@ -78,6 +82,7 @@
 
 <details>
 <summary>Примерно извикване на функцията</summary>
+    
 ```python
     is_break_system_ok(5, 10, "BREAK_SOFT") 
     # -1
