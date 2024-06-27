@@ -9,6 +9,7 @@
 
 <details>
 <summary>Примерно извикване на функцията</summary>
+    
 ```python
     turn_left()
 ```
