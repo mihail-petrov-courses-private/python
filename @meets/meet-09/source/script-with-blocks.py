@@ -3,7 +3,7 @@ OPERATION_FLAG = 1
 
 while True:
 
-    plan_id
+    plan_id = ''
 
     # Операция 1 - Избор на планове
     if OPERATION_FLAG == 1:
@@ -24,6 +24,7 @@ while True:
 
             if is_customer_plan_valid:
                 OPERATION_FLAG = 2
+                break
 
 
     # Операция 2 - Избор на период - идентификатор
