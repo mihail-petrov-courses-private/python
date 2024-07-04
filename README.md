@@ -182,6 +182,35 @@
             </td>
             <td>
             </td>
-        </tr>                 
+        </tr>   
+        <tr>
+            <td>
+                <code>среща 11</code>
+                <br>
+                <sub>📅01.07.2024</sub>
+            </td>
+            <td>
+                <a href="./@meets/meet-11/README.md">
+                    Функции - част 2
+                </a>            
+            </td>
+            <td>
+            </td>
+        </tr>                       
+        <tr>
+            <td>
+                <code>среща 12</code>
+                <br>
+                <sub>📅04.07.2024</sub>
+            </td>
+            <td>
+                <a href="./@meets/meet-12/README.md">
+                    Функции - част 3
+                </a>            
+            </td>
+            <td>
+            </td>
+        </tr>                       
+
     <tbody>
 </table>
