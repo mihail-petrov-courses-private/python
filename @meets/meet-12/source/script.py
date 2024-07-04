@@ -69,7 +69,9 @@ def load(active_hand_id):
 
     global ACTIVE_HAND_ID
     ACTIVE_HAND_ID = active_hand_id
+    print(f"Ръка {active_hand_id} е активирана успешно")
 
+# Задача 5 - да се дефинира функция която да проверява дали има достатъчно РЕСУРСИ за да работи роботската ръка
 
 turnon()
 load("A")
