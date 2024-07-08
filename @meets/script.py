@@ -4,6 +4,7 @@ OXIGEN_INDEX  = 168
 FUEL_INDEX    = 90
 
 IS_SYSTEM_ON  = False
+IS_MISSION_ON = True
 
 # Текущата ръка която местим
 ACTIVE_HAND_ID = 'A'
@@ -27,6 +28,7 @@ def turnon():
 
     global IS_SYSTEM_ON
     IS_SYSTEM_ON = True
+    print("Системата е стартирана")
 
 # Задача 2. Ако системата не е включена - тогава изведи съобщение за грешка
 # Задача 3. Да си създадем място където да пазим коориданите за X и Y на роботска ръка A
@@ -68,6 +70,9 @@ def move(x, y):
 
 def load(active_hand_id):
 
+    if not IS_SYSTEM_ON:
+        return print("Системата не е включена")
+
     global ACTIVE_HAND_ID
     ACTIVE_HAND_ID = active_hand_id
     spend_resource(resource_id = "FUEL", step = 5)
@@ -77,7 +82,7 @@ def load(active_hand_id):
 
 # Задача 5 - да се дефинира функция която да проверява дали има достатъчно РЕСУРСИ за да работи роботската ръка
 def is_program_runing():
-    return OXIGEN_INDEX > 0 and FUEL_INDEX > 0
+    return (OXIGEN_INDEX > 0 and FUEL_INDEX > 0) or IS_MISSION_ON
 
 
 # Задача 6 - да се създаде / дефинира функция spend_resource която да изхарчва, предварително дефинирана стойност
@@ -112,3 +117,43 @@ def print_resource_status():
 # Задача 8. Да се направи основен цикъл, който да е активен докато системата има ресурси. Системата подканя потребителя да въведе команда - която трябвна да се изпълни. Командата се въвежда като ТЕКСТ, въведената команда се изпълнява веднага след нейното въвеждане. 
 # Внимание. Някой команди имат нужда от аргументи. 
 
+# Да се дефинират две нови функции:
+# -> turnoff -> изключва озонобъркачката, но ЦИКЪЛА продължава да работи
+def turnoff():
+    global IS_SYSTEM_ON
+    IS_SYSTEM_ON = False
+    print("Системата е изключена")
+
+# -> landoff -> спира изпълнението на цялата програма
+def landoff():
+    global IS_MISSION_ON
+    IS_MISSION_ON = False
+
+while is_program_runing():
+    process_command = input("Въведи команда:")
+
+    if process_command == "turnon":
+        turnon()
+
+    if process_command == "turnoff":
+        turnoff()        
+
+    if process_command == "landoff":
+        landoff()
+    
+    if process_command == "load":
+
+        hand_id = input("Въведи id на активната ръка")
+        load(hand_id)
+    
+    if process_command == "move":
+
+        position_x = int(input("Въведи позиция X"))
+        position_y = int(input("Въведи позиция Y"))
+        move(position_x, position_y)
+
+    if process_command == "status":
+        print_resource_status()
+
+
+print("Мисията свърши")
