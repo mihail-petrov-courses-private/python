@@ -210,7 +210,20 @@
             </td>
             <td>
             </td>
-        </tr>                       
-
+        </tr>
+        <tr>
+            <td>
+                <code>среща 13</code>
+                <br>
+                <sub>📅08.07.2024</sub>
+            </td>
+            <td>
+                <a href="./@meets/meet-13/README.md">
+                    Функции - част 4
+                </a>            
+            </td>
+            <td>
+            </td>
+        </tr>
     <tbody>
 </table>
