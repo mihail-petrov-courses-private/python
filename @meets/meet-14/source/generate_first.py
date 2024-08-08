@@ -1,3 +1,5 @@
+import util
+
 def generate_digit_first(): 
     customer_year = int(input("Кога си роден ?"))
 
@@ -18,10 +20,10 @@ def generate_digit_first():
 
 
     # След като съм сметнал числото
-    if (customer_year < 1965) and (result_digit % 2 != 0):
+    if (customer_year < 1965) and util.is_odd(result_digit):
         return result_digit
             
-    if (customer_year > 1965) and (result_digit % 2 == 0):
+    if (customer_year > 1965) and util.is_even(result_digit):
         return result_digit
     
     return result_digit + 1
