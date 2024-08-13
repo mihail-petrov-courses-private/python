@@ -237,13 +237,28 @@
                 <sub>📅08.08.2024</sub>
             </td>
             <td>
-                <a href="./@meets/meet-13/README.md">
+                <a href="./@meets/meet-14/README.md">
                     Модули и функции
                 </a>            
             </td>
             <td>
               - Упражнение
             </td>
-        </tr>        
+        </tr>      
+        <tr>
+            <td>
+                <code>среща 15</code>
+                <br>
+                <sub>📅13.08.2024</sub>
+            </td>
+            <td>
+                <a href="./@meets/meet-15/README.md">
+                    Модули и функции - част 2
+                </a>            
+            </td>
+            <td>
+              - Упражнение
+            </td>
+        </tr>                
     <tbody>
 </table>
