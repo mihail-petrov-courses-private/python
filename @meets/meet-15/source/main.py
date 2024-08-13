@@ -17,10 +17,8 @@ forth_digit     = generate_forth.generate()
 profile.set_forth(forth_digit)
 fifth_digit     = generate_fifth.generate()
 profile.set_fifth(fifth_digit)
-
 sixth_digit     = generate_sixth.generate() 
 profile.set_sixth(sixth_digit)
-
 
 print('Първа')
 print(first_digit)
@@ -39,3 +37,7 @@ print(fifth_digit)
 
 print("Шест")
 print(sixth_digit)
+
+
+
+# bar_code = ['*','!','@','#','$','%','^','&',0]
