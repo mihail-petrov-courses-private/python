@@ -100,3 +100,10 @@ def translate_word_capital(word):
 
 
 print(translate_word_capital("iNtervenzia"))
+
+
+
+# четен     - интервал      --> ___
+# нечетен   - интервал      --> ***
+# точка                     --> |...|
+# въпросителен знак         --> $$$
