@@ -84,8 +84,19 @@ count_by_letter("KJHGVSFJGVDJKFHGDJGFKJDGJFGDJKFGHDGFJHDGFKHDG")
 def translate_word_capital(word):
 
     translated_word = ""
-    for letter in word:
-        translated_letter = character_map[letter]
-        translated_word += translated_letter
+
+    for index, letter in enumerate(word):
+
+        if letter.isupper() and ((index + 1) % 2 == 0):
+            translated_word += ("[" + character_map[letter.lower()] + "]")
+        
+        elif letter.isupper() and ((index + 1) % 2 != 0):
+            translated_word += ("{" + character_map[letter.lower()] + "}")
+
+        else:
+            translated_word += character_map[letter]
 
     return translated_word
+
+
+print(translate_word_capital("iNtervenzia"))
