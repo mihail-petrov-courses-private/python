@@ -24,6 +24,8 @@ class Visitor:
 
         return f"{self.name} {self.age} {user_status}"
 
+    def is_adult(self):
+        return self.age >= 18
 
 visitor = Visitor(
     visitor_name="Mihail",
@@ -35,21 +37,28 @@ visitor = Visitor(
 
 class Event:
     title: str
-    visitor_collection: [Visitor] = []
+    visitor_collection: list[Visitor] = []
+    party_type: str = "ALL"
 
     # Разширете конструктора, така че да приема допълнително поле
-    # дали партито е за пълнолетни потребители. 
+    # дали партито е за пълнолетни потребители.
     # НЕ ПЪЛНОЛЕТНИТЕ НЕ МОГАТ да се регистрират.
 
-    def __init__(self, event_title):
+    def __init__(self, event_title, party_type: str):
         self.title = event_title
+        self.party_type = party_type
 
     # Да направим функция, с название register_visitor
     # тази функция ще получава ОБЕКТ, от тип Visitor
     # ще добавя този обект в СПИСЪК - поле в класа Event
 
     def register_visitor(self, visitor_object: Visitor):
-        self.visitor_collection.append(visitor_object)
+
+        if self.party_type == "ADULT" and visitor.is_adult():
+            self.visitor_collection.append(visitor_object)
+
+        if self.party_type == "ALL":
+            self.visitor_collection.append(visitor_object)
 
     # Да направим функция list_all_register_visitors,
     # която да преминава през всички регистрирани
@@ -77,3 +86,9 @@ new_event.list_all_register_visitors()
 
 # Всяко събитие трябва да може да изведе списък с посетителите
 # Които са регистрирани за него
+
+
+
+
+
+
