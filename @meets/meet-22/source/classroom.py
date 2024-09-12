@@ -4,16 +4,21 @@ from student import Student
 class Classroom:
 
     # полета с ЧАСТНА видимост
-    _classroom_name: int
+    _classroom_name: str
 
-    def set_classroom_name(self, name: int):
+    def set_classroom_name(self, name: str):
         self._classroom_name = name
 
     # public - публични полета
     __student_collection: list[Student]
 
-    def __init__(self):
+    def __init__(self, classroom_name: str):
+
         self.__student_collection = []
+        self.set_classroom_name(classroom_name)
+
+    def get_name(self):
+        return self._classroom_name
 
     def read_student_grade(self, file_id):
 
