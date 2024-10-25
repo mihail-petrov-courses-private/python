@@ -440,7 +440,7 @@
                 <sub>📅25.10.2024</sub>
             </td>
             <td>
-                <a href="./@meets/meet-25/README.md">
+                <a href="./@meets/meet-26/README.md">
                     Разработка на QueryBuilder
                 </a>            
             </td>
