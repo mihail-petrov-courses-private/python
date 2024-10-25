@@ -7,16 +7,43 @@ db_instance = mysql.connector.connect(
     database="task_manager"
 )
 
-query = db_instance.cursor()
+cursor = db_instance.cursor()
 
 
-def db_query(query_str):
+def select(table, columns="*"):
 
-    query.execute(query_str)
-    return query.fetchall()
+    query = f"SELECT {columns} FROM {table}"
+    cursor.execute(query)
+    return cursor.fetchall()
 
 
-def db_insert(query_str):
+# ???? -- колони и стойности
+#
+def insert(table, col_value_dict):
 
-    query.execute(query_str)
+    query_insert_col = ",".join(col_value_dict.keys())
+    query_data = tuple(col_value_dict.values())
+    query_count = len(query_data)
+
+    query_insert_vals = ",".join(["%s"] * query_count)
+    query = f"INSERT INTO {table}( {query_insert_col} ) VALUES( {query_insert_vals} )"
+
+    cursor.execute(query, query_data)
     db_instance.commit()
+
+def update(table, col_value_dict, where_dict):
+
+    set_query = ",".join([f"{column_name} = %s" for column_name in col_value_dict.keys()])
+    set_query_values = tuple(col_value_dict.values()) # списък
+
+    where_query = " AND ".join([f"{column_name} = %s" for column_name in where_dict.keys()])
+    where_query_values = tuple(where_dict.values()) # списък
+
+    value_list = set_query_values + where_query_values
+    query = f"UPDATE {table} SET {set_query} WHERE {where_query}"
+
+    cursor.execute(query, value_list)
+    db_instance.commit()
+
+def delete(table, where_dict):
+    pass
