@@ -25,7 +25,7 @@
             <th width="120">N</th>
             <th width="280px">Тема</th>
             <th width="610px">Какво разгледахме</th>
-            <th width="610px">Видео</th>
+            <th width="110px">Видео</th>
         </tr>
     </thead>
     <tbody>
@@ -43,7 +43,9 @@
             - Защо да учим нов език за програмиране; <br>
             </td>
             <td>
-                ▶️
+                <center>
+                    ▶️
+                </center>
             </td>
         </tr>
         <tr>
@@ -385,7 +387,7 @@
             <th width="120">N</th>
             <th width="280px">Тема</th>
             <th width="610px">Какво разгледахме</th>
-            <th width="610px">Видео</th>
+            <th width="110px">Видео</th>
         </tr>
     </thead>
     <tbody>
@@ -485,7 +487,7 @@
             <th width="120">N</th>
             <th width="280px">Тема</th>
             <th width="610px">Какво разгледахме</th>
-            <th width="610px">Видео</th>
+            <th width="110px">Видео</th>
         </tr>
     </thead>
     <tbody>
