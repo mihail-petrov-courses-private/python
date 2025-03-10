@@ -349,10 +349,10 @@
               - как се добавя нов елемент към списък <br>
               - първи стъпки във FOR циклите
             </td>
-        </tr>
             <td align="center">
                 <a href="https://youtu.be/jd2NTKc29QM">▶️</a>
-            </td>                
+            </td>
+        </tr>
         <tr>
             <td>
                 <code>среща 18</code>
