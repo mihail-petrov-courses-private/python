@@ -42,10 +42,8 @@
             <td>
             - Защо да учим нов език за програмиране; <br>
             </td>
-            <td>
-                <center>
-                    ▶️
-                </center>
+            <td align="center">
+                ▶️
             </td>
         </tr>
         <tr>
