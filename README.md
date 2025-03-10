@@ -62,7 +62,7 @@
             - Типове данни - за числа и низове; <br>
             - Работа с входни потоци функцията input();
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
             </td>
         </tr>
@@ -82,7 +82,7 @@
             - Концепцията за израз и какво е това; <br>
             - Оператори за сравнение; <br>
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/R81brVdzu-Q">▶️</a>
             </td>
         </tr>
@@ -102,7 +102,7 @@
             - Условен оператор - IF;<br>
             - Комплексни условни оператори - IF/ELSE;<br> 
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/hXcwzs75KPs">▶️</a>
             </td>
         </tr>        
@@ -122,7 +122,7 @@
             - Условен оператор - IF;<br>
             - Комплексни условни оператори - IF/ELSE;<br> 
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/qOb8_FoyZJY">▶️</a>
             </td>
         </tr>         
@@ -142,7 +142,7 @@
             - Какво е цикъл и как работи;<br>
             - Цикъла WHILE;<br> 
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/Wp4cqYumAJg">▶️</a>
             </td>
         </tr>
@@ -161,7 +161,7 @@
             - вложени цикли; <br>
             - работа с ключове в цикли.
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/yHgi4xm0SeI">▶️</a>
             </td>            
         </tr>          
@@ -179,7 +179,7 @@
             <td>
                 - Упражнение
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/Ak01OxyNlXM">▶️</a>
             </td>                    
         </tr>
@@ -197,7 +197,7 @@
             <td>
               - Упражнение
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/0R_Tz8z-7wI">▶️</a>
             </td>                    
         </tr> 
@@ -215,7 +215,7 @@
             <td>
               - Упражнение
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/b6GASS0as2E">▶️</a>
             </td>        
         </tr>   
@@ -233,7 +233,7 @@
             <td>
               - Упражнение
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/An-lWMW3i7o">▶️</a>
             </td>                    
         </tr>                       
@@ -251,7 +251,7 @@
             <td>
               - Упражнение
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/fxyohBA17lc">▶️</a>
             </td>                    
         </tr>
@@ -269,7 +269,7 @@
             <td>
               - Упражнение
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/a9QDuvH8k_4">▶️</a>
             </td>                    
         </tr>
@@ -287,7 +287,7 @@
             <td>
               - Упражнение
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/_pcKzUHTvBw">▶️</a>
             </td>                    
         </tr>      
@@ -305,7 +305,7 @@
             <td>
               - Упражнение
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/q2CqdsgXQVs">▶️</a>
             </td>                    
         </tr>
@@ -327,7 +327,7 @@
                 - как се добавя нов елемент към списък
                 - първи стъпки във FOR циклите
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/Vj6Pp_cnLM0">▶️</a>
             </td>                    
         </tr>
@@ -350,7 +350,7 @@
               - първи стъпки във FOR циклите
             </td>
         </tr>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/jd2NTKc29QM">▶️</a>
             </td>                
         <tr>
@@ -369,7 +369,7 @@
               - разлика между списък и речник <br>
               - операци и за четене и писане <br>
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/ty6iA3gC9iA">▶️</a>
             </td>                                
         </tr>
@@ -406,7 +406,7 @@
             - как се отварят файлове <br>
             - режими за работа с файлове
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/e0DlqM7ROs0">▶️</a>
             </td>                    
         </tr>          
@@ -427,7 +427,7 @@
             - моделиране на фун <br>
             - режими за работа с файлове
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/GkUUf8IVz5I">▶️</a>
             </td>                    
         </tr>                  
@@ -446,7 +446,7 @@
             - анализ на класове <br>
             - какво е абстракция <br>
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/TImREClDpyU">▶️</a>
             </td>                    
         </tr>      
@@ -467,7 +467,7 @@
                 - как се отварят файлове
                 - режими за работа с файлове                
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/tn521nfcgE4">▶️</a>
             </td>                    
         </tr>
@@ -507,7 +507,7 @@
             - Работа с Postman <br>
             - Какво е Flask и как да го настроим правилно <br>
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/VOE56seQcCg">▶️</a>
             </td>                    
         </tr>
@@ -530,7 +530,7 @@
             - Какво е транзакция <br>
             - DML и DSL заявки с python-mysql-connector  <br>
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/b5rwSIj3_iM">▶️</a>
             </td>                    
         </tr>        
@@ -550,7 +550,7 @@
             - Организация на endpoint рутерите <br>
             - Работа с метод POST <br>
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/FF_oHyDJYCc">▶️</a>
             </td>                    
         </tr>
@@ -570,7 +570,7 @@
             - Абстракция на типични database процеси <br>
             - List compehantion и работа със списъци <br>
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/JzYt0wY4UcE">▶️</a>
             </td>                    
         </tr>    
@@ -592,7 +592,7 @@
             - Работа с тоукъни и предаване на данни <br>
             - Какво е UUID
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/p0aFdTC58eM">▶️</a>
             </td>                    
         </tr>               
@@ -611,7 +611,7 @@
             - Имплементация на базов Tokken генератор <br>
             - Имплементация на JWT <br>
             </td>
-            <td>
+            <td align="center">
                 <a href="https://youtu.be/7dtudUhCctY">▶️</a>
             </td>                    
         </tr>
