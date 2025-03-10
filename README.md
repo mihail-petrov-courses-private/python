@@ -22,6 +22,7 @@
             <th width="120">N</th>
             <th width="280px">Тема</th>
             <th width="610px">Какво разгледахме</th>
+            <th width="610px">Видео</th>
         </tr>
     </thead>
     <tbody>
@@ -37,6 +38,9 @@
             </td>
             <td>
             - Защо да учим нов език за програмиране; <br>
+            </td>
+            <td>
+                ▶️
             </td>
         </tr>
         <tr>
@@ -55,6 +59,9 @@
             - Типове данни - за числа и низове; <br>
             - Работа с входни потоци функцията input();
             </td>
+            <td>
+                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+            </td>
         </tr>
         <tr>
             <td>
@@ -71,6 +78,9 @@
             - Преобразуване на типове; <br>
             - Концепцията за израз и какво е това; <br>
             - Оператори за сравнение; <br>
+            </td>
+            <td>
+                <a href="https://youtu.be/R81brVdzu-Q">▶️</a>
             </td>
         </tr>
         <tr>
@@ -89,6 +99,9 @@
             - Условен оператор - IF;<br>
             - Комплексни условни оператори - IF/ELSE;<br> 
             </td>
+            <td>
+                <a href="https://youtu.be/hXcwzs75KPs">▶️</a>
+            </td>
         </tr>        
         <tr>
             <td>
@@ -105,6 +118,9 @@
             - Аритметични оператори;<br>
             - Условен оператор - IF;<br>
             - Комплексни условни оператори - IF/ELSE;<br> 
+            </td>
+            <td>
+                <a href="https://youtu.be/qOb8_FoyZJY">▶️</a>
             </td>
         </tr>         
         <tr>
@@ -123,6 +139,9 @@
             - Какво е цикъл и как работи;<br>
             - Цикъла WHILE;<br> 
             </td>
+            <td>
+                <a href="https://youtu.be/Wp4cqYumAJg">▶️</a>
+            </td>
         </tr>
         <tr>
             <td>
@@ -139,6 +158,9 @@
             - вложени цикли; <br>
             - работа с ключове в цикли.
             </td>
+            <td>
+                <a href="https://youtu.be/yHgi4xm0SeI">▶️</a>
+            </td>            
         </tr>          
         <tr>
             <td>
@@ -154,6 +176,9 @@
             <td>
                 - Упражнение
             </td>
+            <td>
+                <a href="https://youtu.be/Ak01OxyNlXM">▶️</a>
+            </td>                    
         </tr>
         <tr>
             <td>
@@ -169,6 +194,9 @@
             <td>
               - Упражнение
             </td>
+            <td>
+                <a href="https://youtu.be/0R_Tz8z-7wI">▶️</a>
+            </td>                    
         </tr> 
         <tr>
             <td>
@@ -184,6 +212,9 @@
             <td>
               - Упражнение
             </td>
+            <td>
+                <a href="https://youtu.be/b6GASS0as2E">▶️</a>
+            </td>        
         </tr>   
         <tr>
             <td>
@@ -199,7 +230,12 @@
             <td>
               - Упражнение
             </td>
+            <td>
+                <a href="https://youtu.be/An-lWMW3i7o">▶️</a>
+            </td>                    
         </tr>                       
+
+
         <tr>
             <td>
                 <code>среща 12</code>
@@ -214,7 +250,12 @@
             <td>
               - Упражнение
             </td>
+            <td>
+                <a href="https://youtu.be/fxyohBA17lc">▶️</a>
+            </td>                    
         </tr>
+
+
         <tr>
             <td>
                 <code>среща 13</code>
@@ -229,6 +270,9 @@
             <td>
               - Упражнение
             </td>
+            <td>
+                <a href="https://youtu.be/a9QDuvH8k_4">▶️</a>
+            </td>                    
         </tr>
         <tr>
             <td>
@@ -244,6 +288,9 @@
             <td>
               - Упражнение
             </td>
+            <td>
+                <a href="https://youtu.be/_pcKzUHTvBw">▶️</a>
+            </td>                    
         </tr>      
         <tr>
             <td>
@@ -259,6 +306,9 @@
             <td>
               - Упражнение
             </td>
+            <td>
+                <a href="https://youtu.be/q2CqdsgXQVs">▶️</a>
+            </td>                    
         </tr>
         <tr>
             <td>
@@ -274,6 +324,9 @@
             <td>
               - Упражнение
             </td>
+            <td>
+                <a href="https://youtu.be/Vj6Pp_cnLM0">▶️</a>
+            </td>                    
         </tr>
         <tr>
             <td>
@@ -294,6 +347,9 @@
               - първи стъпки във FOR циклите
             </td>
         </tr>
+            <td>
+                <a href="https://youtu.be/jd2NTKc29QM">▶️</a>
+            </td>                
         <tr>
             <td>
                 <code>среща 18</code>
@@ -310,6 +366,9 @@
               - разлика между списък и речник <br>
               - операци и за четене и писане <br>
             </td>
+            <td>
+                <a href="https://youtu.be/ty6iA3gC9iA">▶️</a>
+            </td>                    
         </tr>
         <tr>
             <td>
@@ -328,6 +387,9 @@
             - как се отварят файлове <br>
             - режими за работа с файлове
             </td>
+            <td>
+                <a href="https://youtu.be/e0DlqM7ROs0">▶️</a>
+            </td>                    
         </tr>          
         <tr>
             <td>
@@ -346,6 +408,9 @@
             - моделиране на фун <br>
             - режими за работа с файлове
             </td>
+            <td>
+                <a href="https://youtu.be/GkUUf8IVz5I">▶️</a>
+            </td>                    
         </tr>                  
         <tr>
             <td>
@@ -362,6 +427,9 @@
             - анализ на класове <br>
             - какво е абстракция <br>
             </td>
+            <td>
+                <a href="https://youtu.be/TImREClDpyU">▶️</a>
+            </td>                    
         </tr>      
         <tr>
             <td>
@@ -376,7 +444,15 @@
             </td>
             <td>
             </td>
+            <td>
+                <a href="https://youtu.be/tn521nfcgE4">▶️</a>
+            </td>                    
         </tr>
+
+
+
+
+
         <tr>
             <td>
                 <code>среща 23</code>
@@ -395,6 +471,9 @@
             - Работа с Postman <br>
             - Какво е Flask и как да го настроим правилно <br>
             </td>
+            <td>
+                <a href="https://youtu.be/VOE56seQcCg">▶️</a>
+            </td>                    
         </tr>
         <tr>
             <td>
@@ -415,6 +494,9 @@
             - Какво е транзакция <br>
             - DML и DSL заявки с python-mysql-connector  <br>
             </td>
+            <td>
+                <a href="https://youtu.be/b5rwSIj3_iM">▶️</a>
+            </td>                    
         </tr>        
         <tr>
             <td>
@@ -432,6 +514,9 @@
             - Организация на endpoint рутерите <br>
             - Работа с метод POST <br>
             </td>
+            <td>
+                <a href="https://youtu.be/FF_oHyDJYCc">▶️</a>
+            </td>                    
         </tr>
         <tr>
             <td>
@@ -449,6 +534,9 @@
             - Абстракция на типични database процеси <br>
             - List compehantion и работа със списъци <br>
             </td>
+            <td>
+                <a href="https://youtu.be/JzYt0wY4UcE">▶️</a>
+            </td>                    
         </tr>    
         <tr>
             <td>
@@ -468,6 +556,9 @@
             - Работа с тоукъни и предаване на данни <br>
             - Какво е UUID
             </td>
+            <td>
+                <a href="https://youtu.be/p0aFdTC58eM">▶️</a>
+            </td>                    
         </tr>               
         <tr>
             <td>
@@ -484,6 +575,9 @@
             - Имплементация на базов Tokken генератор <br>
             - Имплементация на JWT <br>
             </td>
+            <td>
+                <a href="https://youtu.be/7dtudUhCctY">▶️</a>
+            </td>                    
         </tr>
     <tbody>
 </table>
